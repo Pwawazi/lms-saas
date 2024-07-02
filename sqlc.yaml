@@ -1,0 +1,7 @@
+version: "2"
+packages:
+  - path: "internal/user"
+    name: "user"
+    queries: "./db/queries/"
+    schema: "./db/migrations/"
+    engine: "postgresql"
